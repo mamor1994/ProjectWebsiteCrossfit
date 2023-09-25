@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+} 
+ 
+.main{
+	height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(to top,rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(images/banner15.jpg);
+	background-size: center; 
+	background-position: center;
+	position: relative;
+    overflow-x: scroll;
+}
+
+.navbar{
+	width: 2400px;
+	height: 90px;
+	margin: auto;
+}
+
+.icon{
+	width: 200px;
+	float: left;
+	height:90px
+}
+
+.logo{
+	color: #ff7200;
+	font-family: 'Times New Roman';
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;	
+	font-size: 50px;
+}
+
+.menu{
+    width: 2200px;  
+	float: left;
+	height: 90px;
+}
+
+.menu ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu ul li{
+	list-style: none;
+	margin-left: 100px;
+	margin-top: 27px;
+	font-size: 14px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Times New Roman';
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
+    font-size: 20px;
+}
+
+.menu ul li a:hover{
+	color: #ff7200;
+}
+
+.container{
+  border: 5px solid #ff7200;
+}
+
+h1 {
+  font-size: 30px;
+  background-color: #ff7200;
+  color: white;
+  text-align: center;
+  font-family: 'Times New Romam';
+}
+
+h2 {
+  font-size: 25px;
+  text-align:center;
+  color: white;
+}
+
+p{
+    background: transparent;
+    color: white;
+	z-index: 888;
+	width: 88%;
+	font-family: 'Times New Romam';
+	font-size: 20px;
+	padding-left: 85px;
+	margin-top: 7%;
+	letter-spacing: 2.5px;
+	position: relative;
+	display: center;
+	justify-content: center;
+	flex-direction:column;
+	text-indent: 2em;
+}
+
+.important {
+  font-weight: bold;
+}
+
+.emphasis {
+  font-style: italic;
+}
+
+.deleted {
+  text-decoration: line-through;
+  color: red;
+}
+
+.introduced {
+  background-color: #ff7200;
+}
+
+.colorful {
+  background-color: #ff7200;
+  font-size: 25px;
+  text-align: right;
+  width: 94%;
+  display: block;
+}
+
+hr {
+  border: 1px solid #ff7200;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.roman-list {
+  list-style-type: upper-roman;
+  margin-right: 400px;
+  padding-left: 100px;
+  border: 3px solid #ff7200;
+  border-radius: 12px;
+  color: white;
+  margin-left: 400px;
+}
+
+ol li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ff7200;
+}
+
+@keyframes slideText {
+    0% {
+        right: -80%;
+    }
+    100% {
+        right: 100%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+  .main {
+    overflow-x: hidden;
+  }
+}
